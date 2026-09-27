@@ -21,24 +21,24 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* | Quantitative engine projecting loan-level monthly prepayment, default, and loss severity on mortgage pools | Snowflake, Survival Analysis, Gradient Boosting, Credit Risk Modeling |
-| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Max Sharpe (Charnes-Cooper QP) and CVaR (Rockafellar-Uryasev LP) across 1,080 configs. NumPy vectorization (5.28×) + MPI master-worker (6.95×, 99.3% efficiency) | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
-| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Henry Hub spot-price forecasting with engineered weather, storage, production, and macro features. PCA for dimensionality reduction, rolling OOS backtests | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
+| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* | Survival model predicting loan-level prepayment, default, and loss severity from borrower characteristics and macro drivers; outputs pool-level risk metrics for investor reporting | Snowflake, Survival Analysis, Gradient Boosting, Credit Risk Modeling |
+| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Reformulated Max Sharpe and CVaR as convex programs, raising the CVaR solve rate from 21% to 100%; found that 10 bps transaction costs let a passive 60/40 benchmark outperform both strategies | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
+| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Forecasted Henry Hub natural gas prices from engineered weather, storage, and macro features; rolling walk-forward backtests showed strong week-ahead directional accuracy, with month-ahead reliability declining materially | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
 
 ### ML & Recommender Systems
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, ALS, Ranking Metrics, MinHash LSH, HDFS, GCP Dataproc |
-| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** | Controlled benchmark of 5 reorder models on 3.4M orders across 206K users; surfaced metric-dependent model ranking reversal between item-level and basket-level evaluation | XGBoost, scikit-learn, Optuna, User-Grouped CV |
+| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Book recommendation engine trained on 223M interactions, achieving 76% MAP improvement over a popularity baseline; LSH segmentation revealed tightly clustered reader cohorts | PySpark, ALS, Ranking Metrics, MinHash LSH, HDFS, GCP Dataproc |
+| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** | Benchmarked 5 grocery reorder models on 3.4M orders; found that the best model by item-level accuracy ranked differently at basket-level — the same data, a different metric, a different model ships | XGBoost, scikit-learn, Optuna, User-Grouped CV |
 
 ### Applied ML & Engineering
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** | End-to-end news-scraping and classification pipeline for the World Bank Group's PPI team; ensemble of 4 classifiers achieving 86% accuracy and 0.72 F1; interactive dashboard deployed to AWS EC2 via CI/CD | TF-IDF, Ensemble Methods, AWS EC2, CI/CD |
-| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** | Distributed ETL on GCP Dataproc merging ~10GB of NYC traffic, mobility, and weather data. Poisson and Negative Binomial regression, validated with Random Forest (R² ≈ 0.41) | Java, Hive SQL, Hadoop, GCP Dataproc, Negative Binomial |
-| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ratemyprofessor-analysis)** | Statistical analysis of 70K+ professor records: gender rating gaps, hot-pepper effect, logistic regression on take-again rates, Ridge regression on ratings with behavioral tags | Mann-Whitney U, Permutation Testing, Logistic Regression, Ridge Regression |
+| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** | Classification pipeline for the World Bank to flag COVID-delayed infrastructure deals; 4-model ensemble reached 86% accuracy; findings delivered via an interactive dashboard | TF-IDF, Ensemble Methods, AWS EC2, CI/CD |
+| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** | Merged 10GB of NYC traffic, mobility, and weather data into a unified panel; found that snow raises hourly crash counts ~25% after controlling for traffic volume and time of day | Java, Hive SQL, Hadoop, GCP Dataproc, Negative Binomial |
+| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ratemyprofessor-analysis)** | Statistical analysis of 70K+ professor records; confirmed a gender rating gap and found that teaching style (caring, inspiring) predicted ratings better than difficulty or gender | Mann-Whitney U, Permutation Testing, Logistic Regression, Ridge Regression |
 
 ---
 
