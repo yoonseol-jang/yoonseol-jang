@@ -14,14 +14,6 @@ I build quantitative models and data infrastructure at the intersection of finan
 
 ---
 
-## 🔭 Recently I've been working on...
-
-- 📊 **[KKR Capstone](https://github.com/yoonseol-jang):** Quantitative engine projecting loan-level monthly prepayment, default, and loss severity on mortgage pools using survival analysis and gradient boosting. *(Snowflake, Python, Survival Analysis)*
-- 📈 **[Portfolio Optimization](https://github.com/yoonseol-jang/convex-portfolio-optimization):** Max Sharpe and CVaR backtested across 1,080 configurations with MPI parallelism — 6.95× speedup at 99.3% parallel efficiency. *(CVXPY, mpi4py, Convex Optimization)*
-- 📚 **[Goodreads Recommender](https://github.com/yoonseol-jang/goodreads-recommendation-system):** Implicit ALS on 223M interactions on GCP Dataproc — 76% relative MAP improvement over popularity baseline. *(PySpark, ALS, MinHash LSH)*
-
----
-
 ## 📂 Featured Projects
 
 | Project | Brief | Stack |
