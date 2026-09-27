@@ -15,6 +15,8 @@ I build quantitative models and large-scale data systems at the intersection of 
 
 ## 📂 Featured Projects
 
+[💹 Quantitative Finance](#-quantitative-finance) · [🤖 ML & Recommender Systems](#-ml--recommender-systems) · [🛠️ Data Engineering & Applied ML](#️-data-engineering--applied-ml)
+
 ### 💹 Quantitative Finance
 
 | Project | Description | Stack |
