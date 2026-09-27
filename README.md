@@ -32,6 +32,7 @@ I build quantitative models and data infrastructure at the intersection of finan
 | ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Henry Hub spot-price forecasting with engineered weather, storage, production, and macro features. PCA for dimensionality reduction, rolling OOS backtests, 60% directional accuracy | Python, PCA, Backtesting |
 | 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** | End-to-end news-scraping and classification pipeline for the World Bank Group's PPI team; ensemble of 4 classifiers achieving 86% accuracy and 0.72 F1; interactive dashboard deployed to AWS EC2 via CI/CD | Python, TF-IDF, scikit-learn, AWS EC2 |
 | 🚗 **[Distributed ETL & Urban Crash Modeling](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** | Distributed ETL on GCP Dataproc merging ~10GB of NYC traffic, mobility, and weather data. Poisson and Negative Binomial regression, validated with Random Forest (R² ≈ 0.41) | Python, Java, Hadoop, GCP Dataproc |
+| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ds1001-professor-effectiveness)** | Statistical analysis of 70K+ professor records: gender rating gaps, hot-pepper effect, logistic regression on take-again rates, Ridge regression on ratings with behavioral tags | Python, scipy, scikit-learn, pandas |
 
 ---
 
