@@ -1,12 +1,12 @@
 # 👋 Hi, I'm Yoonseol (Winter) Jang
 
-I build quantitative models and large-scale data systems at the intersection of finance, ML, and engineering — currently a Mortgage Credit Risk Student Researcher at KKR, previously a Data Trading Analyst at Quantbot Technologies. Originally from South Korea 🇰🇷, based in New York City.
+I build quantitative models, LLM agents, and large-scale data systems at the intersection of finance, ML, and engineering — currently a Mortgage Credit Risk Student Researcher at KKR, previously building LLM agents and data pipelines at Quantbot Technologies. Originally from South Korea 🇰🇷, based in New York City.
 
 ## 🚀 About Me
 
 - 🎓 **M.S. in Data Science** @ *New York University* (2027)
 - 📚 **B.A. in Data Science** @ *UC Berkeley*
-- 🎯 **Focus:** Financial Modeling, Large-Scale Data Systems, Statistical ML
+- 🎯 **Focus:** Predictive Modeling, LLM Systems, Large-Scale Data Engineering
 - 💼 **Career Interests:** Data Scientist · Quantitative Analyst · ML Engineer
 - 🌍 **Location:** New York City, NY
 - 📬 **Connect:** [LinkedIn](https://linkedin.com/in/yoonseol-jang) | [Email](mailto:y.seol0799@gmail.com)
