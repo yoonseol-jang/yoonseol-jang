@@ -30,7 +30,7 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 | Project | Description | Stack |
 |---------|-------------|-------|
 | 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, Collaborative Filtering, ALS, Ranking Metrics, MinHash LSH, GCP Dataproc |
-| 🛒 **[Next-Basket Reorder Prediction & Evaluation Design](https://github.com/yoonseol-jang/next-basket-kpi-evaluation)** | Controlled benchmark of 5 reorder models on 3.4M orders across 206K users; surfaced metric-dependent model ranking reversal between item-level and basket-level evaluation | XGBoost, Model Evaluation, Hyperparameter Tuning, scikit-learn |
+| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/next-basket-kpi-evaluation)** | Controlled benchmark of 5 reorder models on 3.4M orders across 206K users; surfaced metric-dependent model ranking reversal between item-level and basket-level evaluation | XGBoost, scikit-learn, Optuna, User-Grouped CV |
 
 ### Applied ML & Engineering
 
