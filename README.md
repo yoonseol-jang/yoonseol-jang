@@ -21,15 +21,15 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* | Survival model predicting loan-level prepayment, default, and loss severity from borrower characteristics and macro drivers; outputs pool-level risk metrics for investor reporting | Snowflake, Survival Analysis, Gradient Boosting, Credit Risk Modeling |
-| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Reformulated Max Sharpe and CVaR as convex programs, raising the CVaR solve rate from 21% to 100%; found that 10 bps transaction costs let a passive 60/40 benchmark outperform both strategies | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
-| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Forecasted Henry Hub natural gas prices from engineered weather, storage, and macro features; rolling walk-forward backtests showed strong week-ahead directional accuracy, with month-ahead reliability declining materially | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
+| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* | What drives loan-level mortgage outcomes at scale? Survival model projecting prepayment, default, and severity from borrower characteristics and macro drivers; outputs pool-level risk metrics for investor reporting | Snowflake, Survival Analysis, Gradient Boosting, Credit Risk Modeling |
+| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Iterative CVaR solvers converge on only ~1 in 5 rebalance dates — does reformulating as a convex program fix it? Raised the solve rate to 100%; found that 10 bps transaction costs let a passive 60/40 benchmark outperform both strategies | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
+| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Can weather, storage, and macro signals forecast natural gas spot prices reliably across horizons? Rolling walk-forward backtests showed strong week-ahead directional accuracy, with month-ahead reliability declining materially | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
 
 ### ML & Recommender Systems
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Book recommendation engine trained on 223M interactions, achieving 76% MAP improvement over a popularity baseline; LSH segmentation revealed tightly clustered reader cohorts | PySpark, ALS, Ranking Metrics, MinHash LSH, HDFS, GCP Dataproc |
+| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Does collaborative filtering beat popularity-based recommendations at 223M-interaction scale? 76% MAP improvement over baseline; LSH segmentation revealed tightly clustered reader cohorts | PySpark, ALS, Ranking Metrics, MinHash LSH, HDFS, GCP Dataproc |
 | 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** | Benchmarked 5 grocery reorder models on 3.4M orders; found that the best model by item-level accuracy ranked differently at basket-level — the same data, a different metric, a different model ships | XGBoost, scikit-learn, Optuna, User-Grouped CV |
 
 ### Applied ML & Engineering
