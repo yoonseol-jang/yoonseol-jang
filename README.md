@@ -29,16 +29,16 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, Collaborative Filtering, ALS, Ranking Metrics, MinHash LSH, GCP Dataproc |
+| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, ALS, Ranking Metrics, MinHash LSH, HDFS, GCP Dataproc |
 | 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/next-basket-kpi-evaluation)** | Controlled benchmark of 5 reorder models on 3.4M orders across 206K users; surfaced metric-dependent model ranking reversal between item-level and basket-level evaluation | XGBoost, scikit-learn, Optuna, User-Grouped CV |
 
 ### Applied ML & Engineering
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** | End-to-end news-scraping and classification pipeline for the World Bank Group's PPI team; ensemble of 4 classifiers achieving 86% accuracy and 0.72 F1; interactive dashboard deployed to AWS EC2 via CI/CD | Python, TF-IDF, Ensemble Methods, AWS EC2, CI/CD |
-| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** | Distributed ETL on GCP Dataproc merging ~10GB of NYC traffic, mobility, and weather data. Poisson and Negative Binomial regression, validated with Random Forest (R² ≈ 0.41) | Java, SQL, Hadoop, GCP Dataproc, Count Regression |
-| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ds1001-professor-effectiveness)** | Statistical analysis of 70K+ professor records: gender rating gaps, hot-pepper effect, logistic regression on take-again rates, Ridge regression on ratings with behavioral tags | pandas, Hypothesis Testing, Logistic Regression, Ridge Regression |
+| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** | End-to-end news-scraping and classification pipeline for the World Bank Group's PPI team; ensemble of 4 classifiers achieving 86% accuracy and 0.72 F1; interactive dashboard deployed to AWS EC2 via CI/CD | TF-IDF, Ensemble Methods, AWS EC2, CI/CD |
+| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** | Distributed ETL on GCP Dataproc merging ~10GB of NYC traffic, mobility, and weather data. Poisson and Negative Binomial regression, validated with Random Forest (R² ≈ 0.41) | Java, Hive SQL, Hadoop, GCP Dataproc, Negative Binomial |
+| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ds1001-professor-effectiveness)** | Statistical analysis of 70K+ professor records: gender rating gaps, hot-pepper effect, logistic regression on take-again rates, Ridge regression on ratings with behavioral tags | Mann-Whitney U, Permutation Testing, Logistic Regression, Ridge Regression |
 
 ---
 
