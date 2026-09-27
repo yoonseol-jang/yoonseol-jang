@@ -6,7 +6,7 @@ I build quantitative models and large-scale data systems at the intersection of 
 
 - 🎓 **M.S. in Data Science** @ *New York University* (2027)
 - 📚 **B.A. in Data Science** @ *UC Berkeley*
-- 🤖 **Focus:** Financial Modeling, Large-Scale Data Systems, Statistical ML
+- 🎯 **Focus:** Financial Modeling, Large-Scale Data Systems, Statistical ML
 - 💼 **Career Interests:** Data Scientist · Quantitative Analyst · ML Engineer
 - 🌍 **Location:** New York City, NY
 - 📬 **Connect:** [LinkedIn](https://linkedin.com/in/yoonseol-jang) | [Email](mailto:y.seol0799@gmail.com)
@@ -15,9 +15,9 @@ I build quantitative models and large-scale data systems at the intersection of 
 
 ## 📂 Featured Projects
 
-[💹 Quantitative Finance](#-quantitative-finance) · [🤖 ML & Recommender Systems](#-ml--recommender-systems) · [🛠️ Data Engineering & Applied ML](#️-data-engineering--applied-ml)
+[Quantitative Finance](#quantitative-finance) · [ML & Recommender Systems](#ml--recommender-systems) · [Data Engineering & Applied ML](#data-engineering--applied-ml)
 
-### 💹 Quantitative Finance
+### Quantitative Finance
 
 | Project | Description | Stack |
 |---------|-------------|-------|
@@ -25,14 +25,14 @@ I build quantitative models and large-scale data systems at the intersection of 
 | 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Max Sharpe (Charnes-Cooper QP) and CVaR (Rockafellar-Uryasev LP) across 1,080 configs. NumPy vectorization (5.28×) + MPI master-worker (6.95×, 99.3% efficiency) | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
 | ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Henry Hub spot-price forecasting with engineered weather, storage, production, and macro features. PCA for dimensionality reduction, rolling OOS backtests, 60% directional accuracy | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
 
-### 🤖 ML & Recommender Systems
+### ML & Recommender Systems
 
 | Project | Description | Stack |
 |---------|-------------|-------|
 | 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, Collaborative Filtering, ALS, Ranking Metrics, MinHash LSH, GCP Dataproc |
 | 🛒 **[Next-Basket Prediction & KPI Evaluation](https://github.com/yoonseol-jang/next-basket-kpi-evaluation)** | Controlled benchmark of 5 reorder models on 3.4M Instacart orders. Identified AOV as business KPI; surfaced metric-dependent model ranking reversal | XGBoost, Model Evaluation, Hyperparameter Tuning, KPI Design |
 
-### 🛠️ Data Engineering & Applied ML
+### Data Engineering & Applied ML
 
 | Project | Description | Stack |
 |---------|-------------|-------|
@@ -42,7 +42,7 @@ I build quantitative models and large-scale data systems at the intersection of 
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
 **Languages** · Python · SQL · R · Java · Bash
 
