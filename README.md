@@ -6,6 +6,8 @@ I build quantitative models and data systems at the intersection of finance and 
 
 - 🎓 **M.S. in Data Science** @ *New York University* (2027)
 - 📚 **B.A. in Data Science** @ *UC Berkeley*
+- 🤖 **Focus:** Financial Modeling, Large-Scale Data Systems, Statistical ML
+- 💼 **Career Interests:** Data Scientist, Quantitative Analyst, ML Engineer
 - 🌍 **Location:** New York City, NY
 - 📬 **Connect:** [LinkedIn](https://linkedin.com/in/yoonseol-jang) | [Email](mailto:y.seol0799@gmail.com)
 
