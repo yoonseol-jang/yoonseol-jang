@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Yoonseol (Winter) Jang
 
-I build quantitative models and data systems at the intersection of finance and ML — currently a Mortgage Credit Risk researcher at KKR, previously a Data Trading Analyst at Quantbot Technologies. Originally from South Korea 🇰🇷, based in New York City.
+I build quantitative models and data systems at the intersection of finance and ML — currently a Mortgage Credit Risk Student Researcher at KKR, previously a Data Trading Analyst at Quantbot Technologies. Originally from South Korea 🇰🇷, based in New York City.
 
 ## 🚀 About Me
 
