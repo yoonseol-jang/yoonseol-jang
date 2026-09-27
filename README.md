@@ -7,6 +7,7 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 - 🎓 **M.S. in Data Science** @ *New York University* (2027)
 - 📚 **B.A. in Data Science** @ *UC Berkeley*
 - 🎯 **Focus:** Predictive Modeling, LLM Systems, Large-Scale Data Engineering
+- 📖 **Currently:** Deep Learning @ NYU
 - 💼 **Career Interests:** Data Scientist · Quantitative Analyst · ML Engineer
 - 🌍 **Location:** New York City, NY
 - 📬 **Connect:** [LinkedIn](https://linkedin.com/in/yoonseol-jang) | [Email](mailto:y.seol0799@gmail.com)
@@ -46,7 +47,7 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 **Languages** · Python · SQL · R · Java · Bash
 
-**ML & Modeling** · XGBoost · CVXPY · LLM Agents · RAG · Gradient Boosting · Survival Analysis · Time-Series Forecasting · Convex Optimization
+**ML & Modeling** · PyTorch · XGBoost · CVXPY · LLM Agents · RAG · Gradient Boosting · Survival Analysis · Time-Series Forecasting · Convex Optimization
 
 **Data & Systems** · Apache Spark · Snowflake · HDFS · DuckDB · Parquet · SQL Server · AWS · Bloomberg · Git · GCP Dataproc
 
