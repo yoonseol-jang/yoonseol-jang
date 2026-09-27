@@ -21,24 +21,24 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 | Project | Description |
 |---------|-------------|
-| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* <br> `Snowflake` `Survival Analysis` `Gradient Boosting` | Mortgage pools carry layered risk — prepayment, default, and loss severity all interact and compete. Building a loan-level model that projects each outcome conditioned on borrower characteristics and macro drivers, with pool-level outputs for investor-facing reporting |
-| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** <br> `CVXPY` `mpi4py` `NumPy` `Clarabel` | Standard portfolio optimizers fail on CVaR problems at scale — reformulated as convex programs and stress-tested across 1,080 configurations to find where optimized strategies actually beat a passive index |
-| ⛽ **Natural Gas Price Forecasting & Trading Analysis** <br> `Python` `scikit-learn` `PCA` `Bloomberg` | Natural gas prices are driven by weather, storage cycles, and macro noise — built a forecasting model and stress-tested it across short and long horizons to understand where predictability breaks down |
+| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* <br> `Snowflake` `Survival Analysis` `Gradient Boosting` | Prepayment, default, and severity don't happen independently in a mortgage pool: they compete. Modeling each outcome at loan level from borrower characteristics and macro drivers to build pool-level risk projections for investor reporting |
+| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** <br> `CVXPY` `mpi4py` `NumPy` `Clarabel` | CVaR optimization breaks down in practice; standard solvers converge on roughly 1 in 5 rebalance dates. Reformulated as a convex program to fix that, then stress-tested across 1,080 configurations to find where optimized strategies actually beat a passive index |
+| ⛽ **Natural Gas Price Forecasting & Trading Analysis** <br> `Python` `scikit-learn` `PCA` `Bloomberg` | Weather, storage cycles, and macro shifts all move natural gas prices — but which signals hold up when forecasting a week out versus a month? Built a model from each source and validated with walk-forward backtests to map where predictability breaks down |
 
 ### ML & Recommender Systems
 
 | Project | Description |
 |---------|-------------|
-| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** <br> `PySpark` `ALS` `MinHash LSH` `GCP Dataproc` | At 223M interactions, does collaborative filtering still beat just recommending what's popular? Built a distributed recommendation engine and tested whether readers cluster into meaningful segments |
-| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `XGBoost` `scikit-learn` `Optuna` | Grocery reorder prediction looks simple until you ask: best model for what? Benchmarked 5 models on 3.4M orders and found the answer changes depending on how you measure |
+| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** <br> `PySpark` `ALS` `MinHash LSH` `GCP Dataproc` | Popularity-based recommendation is the simplest baseline imaginable. Built a collaborative filtering engine on 223M interactions to see how far it could be beaten, and whether readers cluster into meaningful segments at that scale |
+| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `XGBoost` `scikit-learn` `Optuna` | Whether the same model is "best" depends on how you measure. Benchmarked 5 grocery reorder models on 3.4M orders and found that rankings reversed between item-level and basket-level evaluation |
 
 ### Applied ML & Engineering
 
 | Project | Description |
 |---------|-------------|
-| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** <br> `TF-IDF` `scikit-learn` `Node.js` `AWS EC2` | The World Bank needed to track COVID-delayed infrastructure deals across thousands of news sources — built an end-to-end classification pipeline and interactive dashboard to flag and surface them automatically |
-| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** <br> `Java` `Hive SQL` `Hadoop` `GCP Dataproc` | Does adverse weather actually raise crash rates, or does it just correlate with less traffic? Merged 10GB of NYC collision, mobility, and weather data to test what happens to crash counts once you control for how many cars are on the road |
-| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ratemyprofessor-analysis)** <br> `Mann-Whitney U` `Permutation Testing` `Logistic Regression` `Ridge Regression` | Do professor ratings reflect teaching quality, or something else? Statistical analysis of 70K+ records to test whether gender, perceived attractiveness, or teaching behavior drives student ratings |
+| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** <br> `TF-IDF` `scikit-learn` `Node.js` `AWS EC2` | COVID disrupted hundreds of infrastructure deals worldwide, but tracking them meant reading thousands of news sources manually. Built an end-to-end classification pipeline for the World Bank to surface them automatically, with findings delivered through an interactive dashboard |
+| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** <br> `Java` `Hive SQL` `Hadoop` `GCP Dataproc` | How much do crashes actually rise in snow, once you account for fewer cars being on the road? Merged 10GB of NYC collision, mobility, and weather data to isolate the independent effect of adverse weather |
+| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ratemyprofessor-analysis)** <br> `Mann-Whitney U` `Permutation Testing` `Logistic Regression` `Ridge Regression` | Teaching behavior, gender, perceived attractiveness: all suspected drivers of professor ratings, but rarely tested together. Analyzed 70K+ records to separate which factors actually predict how students rate their professors |
 
 ---
 
