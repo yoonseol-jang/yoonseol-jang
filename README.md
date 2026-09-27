@@ -23,7 +23,7 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 |---------|-------------|-------|
 | 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* | Quantitative engine projecting loan-level monthly prepayment, default, and loss severity on mortgage pools; rolls up to pool-level CPR/CDR outputs | Snowflake, Survival Analysis, Gradient Boosting, Credit Risk Modeling |
 | 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Max Sharpe (Charnes-Cooper QP) and CVaR (Rockafellar-Uryasev LP) across 1,080 configs. NumPy vectorization (5.28×) + MPI master-worker (6.95×, 99.3% efficiency) | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
-| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Henry Hub spot-price forecasting with engineered weather, storage, production, and macro features. PCA for dimensionality reduction, rolling OOS backtests, 60% directional accuracy | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
+| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Henry Hub spot-price forecasting with engineered weather, storage, production, and macro features. PCA for dimensionality reduction, rolling OOS backtests | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
 
 ### ML & Recommender Systems
 
