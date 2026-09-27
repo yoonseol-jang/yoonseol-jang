@@ -18,6 +18,7 @@ I build quantitative models and data infrastructure at the intersection of finan
 
 | Project | Brief | Stack |
 |---------|-------|-------|
+| 📊 **KKR Mortgage Pool Analytics** *(ongoing)* | Quantitative engine projecting loan-level monthly prepayment, default, and loss severity on mortgage pools; rolls up to pool-level CPR/CDR outputs | Python, Snowflake, Survival Analysis, Gradient Boosting |
 | 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Max Sharpe (Charnes-Cooper QP) and CVaR (Rockafellar-Uryasev LP) across 1,080 configs. NumPy vectorization (5.28×) + MPI master-worker (6.95×, 99.3% efficiency) | Python, CVXPY, mpi4py, Clarabel |
 | 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, ALS, MinHash LSH, HDFS, Parquet |
 | 🛒 **[Next-Basket Prediction & KPI Evaluation](https://github.com/yoonseol-jang/next-basket-kpi-evaluation)** | Controlled benchmark of 5 reorder models on 3.4M Instacart orders. Identified AOV as business KPI; surfaced metric-dependent model ranking reversal | Python, scikit-learn, XGBoost, Optuna |
