@@ -19,26 +19,26 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 ### Quantitative Modeling
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* | What drives loan-level mortgage outcomes at scale? Survival model projecting prepayment, default, and severity from borrower characteristics and macro drivers; outputs pool-level risk metrics for investor reporting | Snowflake, Survival Analysis, Gradient Boosting, Credit Risk Modeling |
-| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Iterative CVaR solvers converge on only ~1 in 5 rebalance dates — does reformulating as a convex program fix it? Raised the solve rate to 100%; found that 10 bps transaction costs let a passive 60/40 benchmark outperform both strategies | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
-| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Can weather, storage, and macro signals forecast natural gas spot prices reliably across horizons? Rolling walk-forward backtests showed strong week-ahead directional accuracy, with month-ahead reliability declining materially | SQL, Bloomberg, PCA, Time-Series Forecasting, Backtesting |
+| Project | Description |
+|---------|-------------|
+| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* <br> `Snowflake` `Survival Analysis` `Gradient Boosting` | Mortgage pools carry layered risk — prepayment, default, and loss severity all interact and compete. Building a loan-level model that projects each outcome conditioned on borrower characteristics and macro drivers, with pool-level outputs for investor-facing reporting |
+| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** <br> `CVXPY` `mpi4py` `NumPy` `Clarabel` | Standard portfolio optimizers fail on CVaR problems at scale — reformulated as convex programs and stress-tested across 1,080 configurations to find where optimized strategies actually beat a passive index |
+| ⛽ **Natural Gas Price Forecasting & Trading Analysis** <br> `Python` `scikit-learn` `PCA` `Bloomberg` | Natural gas prices are driven by weather, storage cycles, and macro noise — built a forecasting model and stress-tested it across short and long horizons to understand where predictability breaks down |
 
 ### ML & Recommender Systems
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Does collaborative filtering beat popularity-based recommendations at 223M-interaction scale? 76% MAP improvement over baseline; LSH segmentation revealed tightly clustered reader cohorts | PySpark, ALS, Ranking Metrics, MinHash LSH, HDFS, GCP Dataproc |
-| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** | Benchmarked 5 grocery reorder models on 3.4M orders; found that the best model by item-level accuracy ranked differently at basket-level — the same data, a different metric, a different model ships | XGBoost, scikit-learn, Optuna, User-Grouped CV |
+| Project | Description |
+|---------|-------------|
+| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** <br> `PySpark` `ALS` `MinHash LSH` `GCP Dataproc` | At 223M interactions, does collaborative filtering still beat just recommending what's popular? Built a distributed recommendation engine and tested whether readers cluster into meaningful segments |
+| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `XGBoost` `scikit-learn` `Optuna` | Grocery reorder prediction looks simple until you ask: best model for what? Benchmarked 5 models on 3.4M orders and found the answer changes depending on how you measure |
 
 ### Applied ML & Engineering
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** | Classification pipeline for the World Bank to flag COVID-delayed infrastructure deals; 4-model ensemble reached 86% accuracy; findings delivered via an interactive dashboard | TF-IDF, Ensemble Methods, AWS EC2, CI/CD |
-| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** | Merged 10GB of NYC traffic, mobility, and weather data into a unified panel; found that snow raises hourly crash counts ~25% after controlling for traffic volume and time of day | Java, Hive SQL, Hadoop, GCP Dataproc, Negative Binomial |
-| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ratemyprofessor-analysis)** | Statistical analysis of 70K+ professor records; confirmed a gender rating gap and found that teaching style (caring, inspiring) predicted ratings better than difficulty or gender | Mann-Whitney U, Permutation Testing, Logistic Regression, Ridge Regression |
+| Project | Description |
+|---------|-------------|
+| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** <br> `TF-IDF` `scikit-learn` `Node.js` `AWS EC2` | The World Bank needed to track COVID-delayed infrastructure deals across thousands of news sources — built an end-to-end classification pipeline and interactive dashboard to flag and surface them automatically |
+| 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** <br> `Java` `Hive SQL` `Hadoop` `GCP Dataproc` | Does adverse weather actually raise crash rates, or does it just correlate with less traffic? Merged 10GB of NYC collision, mobility, and weather data to test what happens to crash counts once you control for how many cars are on the road |
+| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ratemyprofessor-analysis)** <br> `Mann-Whitney U` `Permutation Testing` `Logistic Regression` `Ridge Regression` | Do professor ratings reflect teaching quality, or something else? Statistical analysis of 70K+ records to test whether gender, perceived attractiveness, or teaching behavior drives student ratings |
 
 ---
 
@@ -49,4 +49,3 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 **ML & Modeling** · PyTorch · XGBoost · CVXPY · LLM Agents · RAG · Gradient Boosting · Survival Analysis · Time-Series Forecasting · Convex Optimization
 
 **Data & Systems** · Apache Spark · Snowflake · HDFS · DuckDB · Parquet · SQL Server · AWS · Bloomberg · Git · GCP Dataproc
-
