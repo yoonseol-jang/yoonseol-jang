@@ -1,87 +1,51 @@
-<div align="center">
-
 # 👋 Hi, I'm Yoonseol (Winter) Jang
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1200&color=2E97F7&center=true&vCenter=true&width=520&lines=Data+Science+MS+%40+NYU+%F0%9F%97%BD;Quant+Modeling+%7C+ML+%7C+Large-Scale+Systems;Building+at+the+intersection+of+data+%26+finance)](https://git.io/typing-svg)
-
-Originally from South Korea 🇰🇷, based in New York City.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yoonseol-jang)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:y.seol0799@gmail.com)
-
----
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yoonseol-jang&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true)&nbsp;&nbsp;![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yoonseol-jang&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
-
-</div>
-
----
+I'm a **Data Science MS Student** at NYU, originally from South Korea 🇰🇷 and based in New York City.
+I build quantitative models and data infrastructure at the intersection of finance, machine learning, and systems.
 
 ## 🚀 About Me
 
 - 🎓 **M.S. in Data Science** @ *New York University* (2027)
 - 📚 **B.A. in Data Science** @ *UC Berkeley*
-- 🤖 **Focus:** Financial Modeling · Large-Scale Data Systems · Statistical ML
-- 💼 **Career Interests:** Data Scientist · Quantitative Analyst · ML Engineer
+- 🤖 **Focus:** Financial Modeling, Large-Scale Data Systems, Statistical ML
+- 💼 **Career Interests:** Data Scientist, Quantitative Analyst, ML Engineer
 - 🌍 **Location:** New York City, NY
+- 📬 **Connect:** [LinkedIn](https://linkedin.com/in/yoonseol-jang) | [Email](mailto:y.seol0799@gmail.com)
 
 ---
 
-## 🗂️ Projects
+## 🔭 Recently I've been working on...
 
-<div align="center">
+- 📊 **[KKR Capstone](https://github.com/yoonseol-jang):** Quantitative engine projecting loan-level monthly prepayment, default, and loss severity on mortgage pools using survival analysis and gradient boosting. *(Snowflake, Python, Survival Analysis)*
+- 📈 **[Portfolio Optimization](https://github.com/yoonseol-jang/convex-portfolio-optimization):** Max Sharpe and CVaR backtested across 1,080 configurations with MPI parallelism — 6.95× speedup at 99.3% parallel efficiency. *(CVXPY, mpi4py, Convex Optimization)*
+- 📚 **[Goodreads Recommender](https://github.com/yoonseol-jang/goodreads-recommendation-system):** Implicit ALS on 223M interactions on GCP Dataproc — 76% relative MAP improvement over popularity baseline. *(PySpark, ALS, MinHash LSH)*
 
-[![convex-portfolio-optimization](https://github-readme-stats.vercel.app/api/pin/?username=yoonseol-jang&repo=convex-portfolio-optimization&theme=tokyonight&hide_border=true)](https://github.com/yoonseol-jang/convex-portfolio-optimization)&nbsp;&nbsp;[![goodreads-recommendation-system](https://github-readme-stats.vercel.app/api/pin/?username=yoonseol-jang&repo=goodreads-recommendation-system&theme=tokyonight&hide_border=true)](https://github.com/yoonseol-jang/goodreads-recommendation-system)
+---
 
-[![next-basket-kpi-evaluation](https://github-readme-stats.vercel.app/api/pin/?username=yoonseol-jang&repo=next-basket-kpi-evaluation&theme=tokyonight&hide_border=true)](https://github.com/yoonseol-jang/next-basket-kpi-evaluation)&nbsp;&nbsp;[![distributed-etl-urban-crash-analysis](https://github-readme-stats.vercel.app/api/pin/?username=yoonseol-jang&repo=distributed-etl-urban-crash-analysis&theme=tokyonight&hide_border=true)](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)
+## 📂 Featured Projects
 
-[![ds1001-professor-effectiveness](https://github-readme-stats.vercel.app/api/pin/?username=yoonseol-jang&repo=ds1001-professor-effectiveness&theme=tokyonight&hide_border=true)](https://github.com/yoonseol-jang/ds1001-professor-effectiveness)
-
-</div>
-
-**Without public repos:**
-
-| | |
-|:--|:--|
-| 📊 **KKR Mortgage Pool Analytics** *(ongoing)* | ⛽ **Natural Gas Price Forecasting** |
-| Loan-level CPR/CDR engine — prepayment, default, loss severity using survival analysis + gradient boosting on mortgage pools · `Snowflake` `Python` `XGBoost` | Henry Hub spot-price forecasting with engineered weather, storage, macro features · PCA · rolling OOS backtests · **60% directional accuracy** · `Python` `Bloomberg` |
-| 🌍 **NLP Classification Pipeline** | |
-| End-to-end news classifier for World Bank PPI team · ensemble of 4 models · **86% accuracy** · 0.72 F1 · deployed AWS EC2 via CI/CD · `Python` `scikit-learn` `AWS EC2` | |
+| Project | Brief | Stack |
+|---------|-------|-------|
+| 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Max Sharpe (Charnes-Cooper QP) and CVaR (Rockafellar-Uryasev LP) across 1,080 configs. NumPy vectorization (5.28×) + MPI master-worker (6.95×, 99.3% efficiency) | Python, CVXPY, mpi4py, Clarabel |
+| 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, ALS, MinHash LSH, HDFS, Parquet |
+| 🛒 **[Next-Basket Prediction & KPI Evaluation](https://github.com/yoonseol-jang/next-basket-kpi-evaluation)** | Controlled benchmark of 5 reorder models on 3.4M Instacart orders. Identified AOV as business KPI; surfaced metric-dependent model ranking reversal | Python, scikit-learn, XGBoost, Optuna |
+| ⛽ **Natural Gas Price Forecasting & Trading Analysis** | Henry Hub spot-price forecasting with engineered weather, storage, production, and macro features. PCA for dimensionality reduction, rolling OOS backtests, 60% directional accuracy | Python, PCA, Backtesting |
+| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** | End-to-end news-scraping and classification pipeline for the World Bank Group's PPI team; ensemble of 4 classifiers achieving 86% accuracy and 0.72 F1; interactive dashboard deployed to AWS EC2 via CI/CD | Python, TF-IDF, scikit-learn, AWS EC2 |
+| 🚗 **[Distributed ETL & Urban Crash Modeling](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** | Distributed ETL on GCP Dataproc merging ~10GB of NYC traffic, mobility, and weather data. Poisson and Negative Binomial regression, validated with Random Forest (R² ≈ 0.41) | Python, Java, Hadoop, GCP Dataproc |
+| 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ds1001-professor-effectiveness)** | Statistical analysis of 70K+ professor records: gender rating gaps, hot-pepper effect, logistic regression on take-again rates, Ridge regression on ratings with behavioral tags | Python, scipy, scikit-learn, pandas |
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages**
+**Languages** · Python · SQL · R · Java · Bash
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+**ML & Modeling** · PyTorch · scikit-learn · XGBoost · Gradient Boosting · Survival Analysis · Time-Series Forecasting · Convex Optimization
 
-**ML & Modeling**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
-![CVXPY](https://img.shields.io/badge/CVXPY-2E86AB?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
-**Data & Systems**
-
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Hadoop](https://img.shields.io/badge/Hadoop-F5A623?style=flat-square&logo=apachehadoop&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+**Data & Systems** · Apache Spark · HDFS · DuckDB · Parquet · SQL Server · AWS · Bloomberg · Git · GCP Dataproc
 
 ---
 
-<div align="center">
+## 📫 Get in touch
 
-📬 [LinkedIn](https://linkedin.com/in/yoonseol-jang) · [Email](mailto:y.seol0799@gmail.com)
-
-</div>
+[LinkedIn](https://linkedin.com/in/yoonseol-jang) · [Email](mailto:y.seol0799@gmail.com)
