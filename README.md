@@ -16,8 +16,8 @@ I build quantitative models and data infrastructure at the intersection of finan
 
 ## 📂 Featured Projects
 
-| Project | Brief | Stack |
-|---------|-------|-------|
+| Project | Description | Stack |
+|---------|-------------|-------|
 | 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* | Quantitative engine projecting loan-level monthly prepayment, default, and loss severity on mortgage pools; rolls up to pool-level CPR/CDR outputs | Snowflake, Survival Analysis, Gradient Boosting, Credit Risk Modeling |
 | 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** | Max Sharpe (Charnes-Cooper QP) and CVaR (Rockafellar-Uryasev LP) across 1,080 configs. NumPy vectorization (5.28×) + MPI master-worker (6.95×, 99.3% efficiency) | CVXPY, mpi4py, NumPy, LedoitWolf Covariance, Clarabel |
 | 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** | Implicit ALS on 223M user-book interactions on GCP Dataproc. MinHash LSH market segmentation (top pair Jaccard 0.97). 76% MAP improvement over baseline | PySpark, Collaborative Filtering, ALS, Ranking Metrics, MinHash LSH, GCP Dataproc |
