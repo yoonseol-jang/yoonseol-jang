@@ -30,7 +30,7 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 | Project | Description |
 |---------|-------------|
 | 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** <br> `PySpark` `ALS` `MinHash LSH` `GCP Dataproc` | Popularity-based recommendation is the simplest baseline imaginable. Built a collaborative filtering engine on 223M interactions to see how far it could be beaten, and whether readers cluster into meaningful segments at that scale |
-| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `XGBoost` `scikit-learn` `Optuna` | Whether the same model is "best" depends on how you measure. Benchmarked 5 grocery reorder models on 3.4M orders and found that rankings reversed between item-level and basket-level evaluation |
+| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `XGBoost` `Grid Search` `Hyperparameter Tuning` | Whether the same model is "best" depends on how you measure. Benchmarked 5 grocery reorder models on 3.4M orders and found that rankings reversed between item-level and basket-level evaluation |
 
 ### Applied ML & Engineering
 
