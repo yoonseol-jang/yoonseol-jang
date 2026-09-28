@@ -30,13 +30,13 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 | Project | Description |
 |---------|-------------|
 | 📚 **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** <br> `PySpark` `ALS` `MinHash LSH` `GCP Dataproc` | Popularity-based recommendation is the simplest baseline imaginable. Built a collaborative filtering engine on 223M interactions to see how far it could be beaten, and whether readers cluster into meaningful segments at that scale |
-| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `XGBoost` `Grid Search` `Hyperparameter Tuning` | Whether the same model is "best" depends on how you measure. Benchmarked 5 grocery reorder models on 3.4M orders and found that rankings reversed between item-level and basket-level evaluation |
+| 🛒 **[Next-Basket Reorder Prediction & Controlled Error Analysis](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `XGBoost` `Grid Search` `Hyperparameter Tuning` `Cross-Validation` | Whether the same model is "best" depends on how you measure. Benchmarked 5 grocery reorder models on 3.4M orders and found that rankings reversed between item-level and basket-level evaluation |
 
 ### Applied ML & Engineering
 
 | Project | Description |
 |---------|-------------|
-| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** <br> `TF-IDF` `Logistic Regression` `Node.js` `AWS EC2` | COVID disrupted hundreds of infrastructure deals worldwide, but tracking them meant reading thousands of news sources manually. Built an end-to-end classification pipeline for the World Bank to surface them automatically, with findings delivered through an interactive dashboard |
+| 🌍 **NLP Classification Pipeline & Stakeholder Dashboard** <br> `TF-IDF` `Logistic Regression` `K-means` `CI/CD` `AWS EC2` | COVID disrupted hundreds of infrastructure deals worldwide, but tracking them meant reading thousands of news sources manually. Built an end-to-end classification pipeline for the World Bank to surface them automatically, with findings delivered through an interactive dashboard |
 | 🚗 **[Distributed ETL & Count Regression on NYC Crash Data](https://github.com/yoonseol-jang/distributed-etl-urban-crash-analysis)** <br> `Hadoop` `Hive SQL` `Negative Binomial` `GCP Dataproc` | How much do crashes actually rise in snow, once you account for fewer cars being on the road? Merged 10GB of NYC collision, mobility, and weather data to isolate the independent effect of adverse weather |
 | 🎓 **[Professor Effectiveness Analysis (RateMyProfessor)](https://github.com/yoonseol-jang/ratemyprofessor-analysis)** <br> `Mann-Whitney U` `Permutation Testing` `Logistic Regression` `Ridge Regression` | Teaching behavior, gender, perceived attractiveness: all suspected drivers of professor ratings, but rarely tested together. Analyzed 70K+ records to separate which factors actually predict how students rate their professors |
 
