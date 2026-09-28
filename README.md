@@ -23,7 +23,7 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 |---------|-------------|
 | 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* <br> `Snowflake` `Survival Analysis` `Gradient Boosting` | Prepayment, default, and severity don't happen independently in a mortgage pool: they compete. Modeling each outcome at loan level from borrower characteristics and macro drivers to build pool-level risk projections for investor reporting |
 | 📈 **[Portfolio Optimization with Convex Reformulations](https://github.com/yoonseol-jang/convex-portfolio-optimization)** <br> `CVXPY` `Convex Optimization` `CVaR` `MPI` | CVaR optimization breaks down in practice; standard solvers converge on roughly 1 in 5 rebalance dates. Reformulated as a convex program to fix that, then stress-tested across 1,080 configurations to find where optimized strategies actually beat a passive index |
-| ⛽ **Natural Gas Price Forecasting & Trading Analysis** <br> `Python` `PCA` `Regression Analysis` `Bloomberg` | Weather, storage cycles, and macro shifts all move natural gas prices — but which signals hold up when forecasting a week out versus a month? Built a model from each source and validated with walk-forward backtests to map where predictability breaks down |
+| ⛽ **Natural Gas Price Forecasting & Trading Analysis** <br> `Python` `PCA` `Regression Analysis` `Model Evaluation` `Bloomberg` | Weather, storage cycles, and macro shifts all move natural gas prices — but which signals hold up when forecasting a week out versus a month? Built a model from each source and validated with walk-forward backtests to map where predictability breaks down |
 
 ### ML & Recommender Systems
 
