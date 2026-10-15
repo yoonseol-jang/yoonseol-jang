@@ -21,7 +21,7 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 | Project | Description |
 |---------|-------------|
-| 📊 **KKR — Mortgage Credit Risk Capstone** *(ongoing)* <br> `Snowflake` `Survival Analysis` `Gradient Boosting` | Prepayment, default, and severity don't happen independently in a mortgage pool: they compete. Modeling each outcome at loan level from borrower characteristics and macro drivers to build pool-level risk projections for investor reporting |
+| 📊 **KKR — Non-QM Mortgage Prepayment & Credit Risk Modeling** *(ongoing)* <br> `Python` `SQL` `Snowflake` `scikit-learn` `Gradient Boosting` | Whether a Non-QM mortgage prepays or defaults turns as much on rates and home prices as on the borrower. Building loan-level models from monthly performance histories, loan characteristics, and macro indicators (mortgage rates, home-price indices, unemployment) to predict prepayment and default, benchmarking statistical baselines against gradient-boosted models for RMBS cash-flow and credit-risk forecasting |
 | 🧠 **Document-Grounding vs. Memorization in Fine-Tuned LLMs** *(ongoing)* <br> `Llama 3.2` `LoRA` `Fine-Tuning` `FinQA` `PyTorch` | A correct answer doesn't prove an LLM used the document it was given. Fine-tuning Llama 3.2 with LoRA on FinQA, then swapping the numbers in financial evidence, to test whether models follow the updated document or fall back on memorized figures |
 
 ### Quantitative Modeling
