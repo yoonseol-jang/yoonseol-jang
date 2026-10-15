@@ -21,8 +21,8 @@ I build quantitative models, LLM agents, and large-scale data systems at the int
 
 | Project | Description |
 |---------|-------------|
-| 📊 **KKR — Non-QM Mortgage Prepayment & Credit Risk Modeling** *(ongoing)* <br> `Python` `SQL` `Snowflake` `scikit-learn` `Gradient Boosting` | Whether a Non-QM mortgage prepays or defaults turns as much on rates and home prices as on the borrower. Building loan-level models from monthly performance histories, loan characteristics, and macro indicators (mortgage rates, home-price indices, unemployment) to predict prepayment and default, benchmarking statistical baselines against gradient-boosted models for RMBS cash-flow and credit-risk forecasting |
-| 🧠 **Document-Grounding vs. Memorization in Fine-Tuned LLMs** *(ongoing)* <br> `Llama 3.2` `LoRA` `Fine-Tuning` `FinQA` `PyTorch` | A correct answer doesn't prove an LLM used the document it was given. Fine-tuning Llama 3.2 with LoRA on FinQA, then swapping the numbers in financial evidence, to test whether models follow the updated document or fall back on memorized figures |
+| 📊 **KKR — Non-QM Mortgage Prepayment & Credit Risk Modeling** <br> *NYU MSDS Capstone · In progress* <br> `Python` `SQL` `Snowflake` | Developing loan-level models to estimate Non-QM mortgage prepayment, default probabilities, and loss severity using monthly performance data and macroeconomic indicators. Investigating how refinancing incentives, prepayment penalties, and borrower characteristics influence mortgage outcomes. |
+| 🧠 **Document Grounding After LLM Fine-Tuning** <br> *NYU NLP Research Project · In progress* <br> *Planned stack:* `Python` `PyTorch` `Llama 3.2` `LoRA` `FinQA` | Investigating whether fine-tuning on financial questions a model can already answer without documents reduces its reliance on supplied evidence. Comparing a base Llama 3.2 3B model with two LoRA fine-tuning conditions, using modified numerical evidence to evaluate answer adaptation and calculation accuracy. |
 
 ### Quantitative Modeling
 
