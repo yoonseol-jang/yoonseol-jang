@@ -34,7 +34,7 @@ I build predictive models, LLM agents, and data pipelines for financial and beha
 
 | Project | Description |
 |---------|-------------|
-| **[Goodreads Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** <br> `PySpark` `ALS` `MinHash LSH` `GCP Dataproc` | Implemented a distributed recommendation pipeline for a dataset of 223M user–book interactions using PySpark on GCP Dataproc. On a reproducible 3% user sample, implicit ALS improved MAP by 76% over a popularity baseline. |
+| **[Book Recommendation System](https://github.com/yoonseol-jang/goodreads-recommendation-system)** <br> `PySpark` `ALS` `MinHash LSH` `GCP Dataproc` | Implemented a distributed recommendation pipeline for a dataset of 223M user–book interactions using PySpark on GCP Dataproc. On a reproducible 3% user sample, implicit ALS improved MAP by 76% over a popularity baseline. |
 | **[Instacart Reorder Prediction](https://github.com/yoonseol-jang/instacart-reorder-prediction)** <br> `Python` `scikit-learn` `XGBoost` `Cross-Validation` | Compared five grocery reorder models using 37 shared features and user-grouped cross-validation, with random forest achieving held-out ROC-AUC of 0.91. Examined how item-level and basket-level metrics affect model selection. |
 
 ### Applied ML & Engineering
