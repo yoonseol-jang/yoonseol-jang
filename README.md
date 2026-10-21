@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Yoonseol (Winter) Jang
 
-I build predictive models, LLM agents, and data pipelines for financial and behavioral data. I'm an M.S. in Data Science student at NYU, working on Non-QM mortgage risk modeling through a capstone with KKR. Previously, I developed LLM agents and data pipelines as a Data Trading Analyst Intern at Quantbot Technologies.
+I build predictive models, LLM agents, and data pipelines for financial and behavioral data. I'm an M.S. in Data Science student at NYU, working on mortgage risk modeling through a capstone with KKR. Previously, I developed LLM agents and data pipelines as a Data Trading Analyst Intern at Quantbot Technologies.
 
 ## 🚀 About Me
 
