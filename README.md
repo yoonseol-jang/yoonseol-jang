@@ -21,7 +21,7 @@ I build predictive models, LLM agents, and data pipelines for financial and beha
 | Project | Description |
 |---------|-------------|
 | **KKR — Mortgage Prepayment & Credit Risk Modeling** <br> *NYU MSDS Capstone · In progress* <br> `Python` `SQL` `Snowflake` `Logistic Regression` | Developing loan-level models to predict non-QM mortgage prepayment and default probabilities and estimate loss severity using monthly performance data and macroeconomic indicators. Investigating how refinancing incentives, prepayment penalties, and borrower characteristics influence outcomes. |
-| **Do Fine-Tuned LLMs Follow the Document or Their Memory?** <br> *NLP Research · In progress* <br> *Planned:* `Python` `PyTorch` `Llama 3.2` `LoRA` `FinQA` | Investigating whether fine-tuning on questions a model can already answer without documents reduces its reliance on supplied evidence. Comparing base Llama 3.2 3B with two LoRA conditions using modified numerical evidence. |
+| **Do Fine-Tuned LLMs Follow the Document or Their Memory?** <br> *NLP Research · In progress* <br> *Planned:* `Python` `PyTorch` `Llama 3.2` `LoRA` `FinQA` | Investigating whether fine-tuning on questions a model can already answer without documents reduces its reliance on supplied evidence. Comparing base Llama 3.2 3B with multiple LoRA conditions using modified numerical evidence. |
 
 ### Quantitative Modeling
 
